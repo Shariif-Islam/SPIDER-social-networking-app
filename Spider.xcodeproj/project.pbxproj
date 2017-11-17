@@ -10,7 +10,7 @@
 		0FBE0F79A230D640D875754C /* Pods_Spider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62969CC27E7755765185581 /* Pods_Spider.framework */; };
 		C00C265B1FB33C7800111553 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C00C265A1FB33C7700111553 /* GoogleService-Info.plist */; };
 		C00C265D1FB361DE00111553 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C265C1FB361DE00111553 /* UserVC.swift */; };
-		C00C867F1FB5057700ABCAA9 /* FeedTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C867E1FB5057700ABCAA9 /* FeedTVC.swift */; };
+		C00C867F1FB5057700ABCAA9 /* PostTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00C867E1FB5057700ABCAA9 /* PostTVC.swift */; };
 		C04A6BE91FB3318F00139903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A6BE81FB3318F00139903 /* AppDelegate.swift */; };
 		C04A6BEB1FB3318F00139903 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A6BEA1FB3318F00139903 /* LoginVC.swift */; };
 		C04A6BEE1FB3318F00139903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04A6BEC1FB3318F00139903 /* Main.storyboard */; };
@@ -28,7 +28,7 @@
 		B2852B9FE8BEDC35812CA2B7 /* Pods-Spider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spider.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spider/Pods-Spider.release.xcconfig"; sourceTree = "<group>"; };
 		C00C265A1FB33C7700111553 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C00C265C1FB361DE00111553 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
-		C00C867E1FB5057700ABCAA9 /* FeedTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTVC.swift; sourceTree = "<group>"; };
+		C00C867E1FB5057700ABCAA9 /* PostTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVC.swift; sourceTree = "<group>"; };
 		C04A6BE51FB3318F00139903 /* Spider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04A6BE81FB3318F00139903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C04A6BEA1FB3318F00139903 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 				C04A6BEA1FB3318F00139903 /* LoginVC.swift */,
 				C04A6BFA1FB331CA00139903 /* HomeVC.swift */,
 				C0963B3E1FB4B38900B729BF /* String.swift */,
-				C00C867E1FB5057700ABCAA9 /* FeedTVC.swift */,
+				C00C867E1FB5057700ABCAA9 /* PostTVC.swift */,
 				C04C5D8C1FB778E400F88310 /* Post.swift */,
 				C0963B401FB4BCCF00B729BF /* FirebaseManager.swift */,
 				C0A990861FB5BFFB0028AEF3 /* KeyChain.swift */,
@@ -260,7 +260,7 @@
 				C0A990871FB5BFFB0028AEF3 /* KeyChain.swift in Sources */,
 				C04C5D8D1FB778E400F88310 /* Post.swift in Sources */,
 				C00C265D1FB361DE00111553 /* UserVC.swift in Sources */,
-				C00C867F1FB5057700ABCAA9 /* FeedTVC.swift in Sources */,
+				C00C867F1FB5057700ABCAA9 /* PostTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

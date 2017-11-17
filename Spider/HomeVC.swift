@@ -90,12 +90,12 @@ extension HomeVC : UITableViewDelegate, UITableViewDataSource {
 
         
         let post = array_posts[indexPath.row]
-        if let cell = tableView.dequeueReusableCell(withIdentifier: FEED_TVC_IDENTIFIER, for: indexPath) as? FeedTVC {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: FEED_TVC_IDENTIFIER, for: indexPath) as? PostTVC {
             cell.iv_profileImage.circleImageView()
             cell.configure(post: post)
             return cell
         } else {
-            return FeedTVC()
+            return PostTVC()
         }
     }
 }

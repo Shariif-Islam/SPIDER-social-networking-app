@@ -1,5 +1,5 @@
 //
-//  FeedTVC.swift
+//  PostTVC.swift
 //  Spider
 //
 //  Created by myth on 10/11/17.
@@ -11,7 +11,7 @@ import Firebase
 import SwiftKeychainWrapper
 import FirebaseStorageUI
 
-class FeedTVC: UITableViewCell {
+class PostTVC: UITableViewCell {
 
     @IBOutlet weak var iv_profileImage: UIImageView!
     @IBOutlet weak var lb_userName: UILabel!
