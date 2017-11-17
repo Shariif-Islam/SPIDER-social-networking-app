@@ -23,7 +23,7 @@ class HomeVC: UIViewController, FirebaseManagerDelegate, KeyChainDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         imagePicker = UIImagePickerController()
         imagePicker.delegate = self
         imagePicker.allowsEditing = true
