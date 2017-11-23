@@ -9,10 +9,13 @@ A social networking application using Firebase. This is a simple demo applicatio
 ### Screenshots
 
 #### Login screen
-![screen shot 2017-11-18 at 02 18 33](https://user-images.githubusercontent.com/22715216/32967414-cd9705e2-cc07-11e7-8082-37baf8305fe9.png)
+![screen shot 2017-11-23 at 13 27 29](https://user-images.githubusercontent.com/22715216/33162975-67722d02-d056-11e7-8737-41541062bc68.png)
 
 #### Create profile
-![screen shot 2017-11-18 at 02 19 07](https://user-images.githubusercontent.com/22715216/32967415-cdd1e734-cc07-11e7-9178-a66536f6a31a.png)
+![screen shot 2017-11-23 at 13 57 20](https://user-images.githubusercontent.com/22715216/33162981-69eec914-d056-11e7-841c-e895820f5aeb.png)
 
 #### Post image
-![screen shot 2017-11-18 at 02 19 24](https://user-images.githubusercontent.com/22715216/32967416-ce0c8074-cc07-11e7-8977-f79afe181d05.png)
+![screen shot 2017-11-23 at 13 57 53](https://user-images.githubusercontent.com/22715216/33162989-6b47057e-d056-11e7-8688-55f72681e0ba.png)
+
+
+
