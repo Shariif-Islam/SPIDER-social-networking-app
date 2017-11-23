@@ -41,7 +41,7 @@ let UPLOADED_AN_IMAGE = "| uploaded an image."
 let ICON_LIKE = "icon_like"
 
 let MAIN_STORYBOARD = "Main"
-let HOME_VC_IDENTIFIER = "homevc"
+let HOME_NAV_IDENTIFIER = "homeNav"
 let LOGIN_VC_IDENTIFIER = "loginvc"
 let FEED_TVC_IDENTIFIER = "FeedTableViewCell"
 

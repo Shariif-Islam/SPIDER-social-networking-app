@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spider" translatesAutoresizingMaskIntoConstraints="NO" id="mZy-c6-eNU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_spiderlaunch" translatesAutoresizingMaskIntoConstraints="NO" id="mZy-c6-eNU">
                                 <rect key="frame" x="85" y="209" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="L3w-1S-EoF"/>
@@ -26,7 +26,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.054901960780000002" green="0.1843137255" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mZy-c6-eNU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="i34-Mj-Mx0"/>
                             <constraint firstItem="mZy-c6-eNU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="vtd-Rh-IRb"/>
@@ -40,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="spider" width="107" height="117"/>
+        <image name="image_spiderlaunch" width="256" height="256"/>
     </resources>
 </document>

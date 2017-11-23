@@ -37,7 +37,6 @@ class UserVC: UIViewController, FirebaseManagerDelegate, KeyChainDelegate {
     
     override func viewDidLayoutSubviews() {
         iv_profileImage.circleImageView()
-        tf_userName.spiderTextField()
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,7 +48,6 @@ class UserVC: UIViewController, FirebaseManagerDelegate, KeyChainDelegate {
         
         lb_email.text = email
         lb_password.text = password
-
         btn_createProfile.isEnabled = false
         
         imagePicker = UIImagePickerController()
@@ -168,8 +166,6 @@ extension UIImageView {
     
     func circleImageView() {
         self.layer.cornerRadius = self.bounds.size.height / 2
-        self.layer.borderWidth = 1
-        self.layer.borderColor = UIColor.orange.cgColor
         self.clipsToBounds = true
     }
 }

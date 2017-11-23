@@ -27,8 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, KeyChainDelegate {
         let storyboard = UIStoryboard(name: MAIN_STORYBOARD, bundle: nil)
         
         if KCIsSignIn() {
-            let initialViewController = storyboard.instantiateViewController(withIdentifier: HOME_VC_IDENTIFIER)
-            window?.rootViewController = UINavigationController(rootViewController: initialViewController)
+            let nav = storyboard.instantiateViewController(withIdentifier: HOME_NAV_IDENTIFIER) as? UINavigationController
+            window?.rootViewController = nav
         } else {
             let initialViewController = storyboard.instantiateViewController(withIdentifier: LOGIN_VC_IDENTIFIER)
             window?.rootViewController = initialViewController

@@ -64,10 +64,8 @@ class LoginVC: UIViewController, FirebaseManagerDelegate, KeyChainDelegate {
     // MARK: Custom func
     func customization() {
         
-        // UI customization
-        tf_email.spiderTextField()
-        tf_password.spiderTextField()
-        
+        tf_email.modifyClearButtonWithImage()
+        tf_password.modifyClearButtonWithImage()
         btn_signupLogin.layer.cornerRadius = 5
     }
     
@@ -156,17 +154,41 @@ extension LoginVC : UITextFieldDelegate {
     }
 }
 
-extension UITextField {
+extension UIColor {
     
-    func spiderTextField() {
-        self.layer.borderWidth = 0.5
-        self.layer.borderColor = UIColor.darkGray.cgColor
-        self.layer.cornerRadius = 5
+    static func backgroundColor() -> UIColor {
+        return UIColor.init(red: 10.00/255.00, green: 41.00/255.00, blue: 41.00/255.00, alpha: 1)
+    }
+    static func titleTintColor() -> UIColor {
+        return UIColor.init(red: 14.00/255.00, green: 47.00/255.00, blue: 41.00/255.00, alpha: 1)
+    }
+    static func highlightedColor() -> UIColor {
+        return UIColor.init(red: 20.00/255.00, green: 232.00/255.00, blue: 152.00/255.00, alpha: 1)
+    }
+    
+    static func highlightedCGolor() -> CGColor {
+        return UIColor.init(red: 20.00/255.00, green: 209.00/255.00, blue: 142.00/255.00, alpha: 1).cgColor
     }
 }
 
 
+extension UITextField {
 
+    func modifyClearButtonWithImage() {
+        
+        let clearButton = UIButton(type: .custom)
+        clearButton.setImage(#imageLiteral(resourceName: "icon_clear"), for: .normal)
+        clearButton.frame = CGRect(x: 0, y: 0, width: 15, height: 15)
+        clearButton.contentMode = .scaleAspectFit
+        clearButton.addTarget(self, action: #selector(self.clear(sender:)), for: .touchUpInside)
+        self.rightView = clearButton
+        self.rightViewMode = .whileEditing
+    }
+    
+    @objc func clear(sender : AnyObject) {
+        self.text = ""
+    }
+}
 
 
 
